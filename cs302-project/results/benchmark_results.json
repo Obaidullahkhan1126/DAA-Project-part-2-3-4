@@ -1,0 +1,222 @@
+[
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_01.txt",
+    "size": 101,
+    "result": "d = 82.0045 between (2071.603,4650.916) and (2140.991,4694.620)",
+    "dc_ms": 1.66,
+    "brute_ms": 2.67,
+    "dc_ops": "-",
+    "brute_ops": "5050 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_02.txt",
+    "size": 150,
+    "result": "d = 26.9017 between (3744.012,8412.653) and (3722.977,8429.423)",
+    "dc_ms": 1.55,
+    "brute_ms": 18.12,
+    "dc_ops": "-",
+    "brute_ops": "11175 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_03.txt",
+    "size": 250,
+    "result": "d = 3.3085 between (3708.709,4353.203) and (3705.981,4355.075)",
+    "dc_ms": 3.18,
+    "brute_ms": 23.59,
+    "dc_ops": "-",
+    "brute_ops": "31125 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_04.txt",
+    "size": 400,
+    "result": "d = 2.3985 between (1980.780,4632.642) and (1983.129,4633.127)",
+    "dc_ms": 4.47,
+    "brute_ms": 44.53,
+    "dc_ops": "-",
+    "brute_ops": "79800 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_05.txt",
+    "size": 600,
+    "result": "d = 9.3226 between (285.138,4564.575) and (294.086,4567.191)",
+    "dc_ms": 5.55,
+    "brute_ms": 72.59,
+    "dc_ops": "-",
+    "brute_ops": "179700 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_06.txt",
+    "size": 1000,
+    "result": "d = 190.3544 between (2524.778,1060.869) and (2544.786,1250.169)",
+    "dc_ms": 10.76,
+    "brute_ms": 356.39,
+    "dc_ops": "-",
+    "brute_ops": "499500 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_07.txt",
+    "size": 1500,
+    "result": "d = 1.4082 between (5994.989,1052.614) and (5993.944,1053.558)",
+    "dc_ms": 18.37,
+    "brute_ms": 790.01,
+    "dc_ops": "-",
+    "brute_ops": "1124250 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_08.txt",
+    "size": 2500,
+    "result": "d = 0.2976 between (7744.119,5052.917) and (7744.299,5053.154)",
+    "dc_ms": 33.03,
+    "brute_ms": 2280.29,
+    "dc_ops": "-",
+    "brute_ops": "3123750 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_09.txt",
+    "size": 4000,
+    "result": "d = 0.6708 between (1703.046,7812.448) and (1703.223,7813.095)",
+    "dc_ms": 90.89,
+    "brute_ms": 6463.54,
+    "dc_ops": "-",
+    "brute_ops": "7998000 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Closest pair",
+    "file": "closest_pair_10.txt",
+    "size": 6000,
+    "result": "d = 1.1880 between (3633.255,6238.612) and (3632.094,6238.864)",
+    "dc_ms": 147.74,
+    "brute_ms": 14063.56,
+    "dc_ops": "-",
+    "brute_ops": "17997000 pair checks",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_01.txt",
+    "size": 101,
+    "result": "202-digit product 44091068...975300",
+    "dc_ms": 7.32,
+    "brute_ms": 0.003,
+    "dc_ops": "2608 digit mults (Karatsuba)",
+    "brute_ops": "10201 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_02.txt",
+    "size": 128,
+    "result": "256-digit product 37028853...306515",
+    "dc_ms": 7.86,
+    "brute_ms": 0.0032,
+    "dc_ops": "3689 digit mults (Karatsuba)",
+    "brute_ops": "16384 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_03.txt",
+    "size": 200,
+    "result": "399-digit product 84446801...642290",
+    "dc_ms": 14.39,
+    "brute_ms": 0.0025,
+    "dc_ops": "7550 digit mults (Karatsuba)",
+    "brute_ops": "40000 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_04.txt",
+    "size": 256,
+    "result": "512-digit product 71276415...310173",
+    "dc_ms": 21.68,
+    "brute_ms": 0.0032,
+    "dc_ops": "10934 digit mults (Karatsuba)",
+    "brute_ops": "65536 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_05.txt",
+    "size": 400,
+    "result": "800-digit product 13530561...228480",
+    "dc_ms": 42.72,
+    "brute_ms": 0.0087,
+    "dc_ops": "23123 digit mults (Karatsuba)",
+    "brute_ops": "160000 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_06.txt",
+    "size": 512,
+    "result": "1023-digit product 59925263...372212",
+    "dc_ms": 66.41,
+    "brute_ms": 0.0074,
+    "dc_ops": "32782 digit mults (Karatsuba)",
+    "brute_ops": "262144 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_07.txt",
+    "size": 800,
+    "result": "1600-digit product 66908763...796750",
+    "dc_ms": 157.9,
+    "brute_ms": 0.0275,
+    "dc_ops": "68560 digit mults (Karatsuba)",
+    "brute_ops": "640000 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_08.txt",
+    "size": 1024,
+    "result": "2048-digit product 24869459...929344",
+    "dc_ms": 166.51,
+    "brute_ms": 0.024,
+    "dc_ops": "99380 digit mults (Karatsuba)",
+    "brute_ops": "1048576 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_09.txt",
+    "size": 2048,
+    "result": "4096-digit product 25198943...986251",
+    "dc_ms": 675.48,
+    "brute_ms": 0.1683,
+    "dc_ops": "297140 digit mults (Karatsuba)",
+    "brute_ops": "4194304 digit mults (grade school)",
+    "correct": "PASS"
+  },
+  {
+    "problem": "Integer multiplication",
+    "file": "int_mult_10.txt",
+    "size": 4096,
+    "result": "8192-digit product 12309533...294907",
+    "dc_ms": 1810.57,
+    "brute_ms": 0.2019,
+    "dc_ops": "892664 digit mults (Karatsuba)",
+    "brute_ops": "16777216 digit mults (grade school)",
+    "correct": "PASS"
+  }
+]

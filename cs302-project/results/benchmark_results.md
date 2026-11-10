@@ -1,0 +1,22 @@
+| Problem | File | Size | D&C result | D&C ms | Reference ms | Operation counts | Check |
+|---|---|---|---|---|---|---|---|
+| Closest pair | closest_pair_01.txt | 101 | d = 82.0045 between (2071.603,4650.916) and (2140.991,4694.620) | 1.66 | 2.67 | 5050 pair checks | PASS |
+| Closest pair | closest_pair_02.txt | 150 | d = 26.9017 between (3744.012,8412.653) and (3722.977,8429.423) | 1.55 | 18.12 | 11175 pair checks | PASS |
+| Closest pair | closest_pair_03.txt | 250 | d = 3.3085 between (3708.709,4353.203) and (3705.981,4355.075) | 3.18 | 23.59 | 31125 pair checks | PASS |
+| Closest pair | closest_pair_04.txt | 400 | d = 2.3985 between (1980.780,4632.642) and (1983.129,4633.127) | 4.47 | 44.53 | 79800 pair checks | PASS |
+| Closest pair | closest_pair_05.txt | 600 | d = 9.3226 between (285.138,4564.575) and (294.086,4567.191) | 5.55 | 72.59 | 179700 pair checks | PASS |
+| Closest pair | closest_pair_06.txt | 1000 | d = 190.3544 between (2524.778,1060.869) and (2544.786,1250.169) | 10.76 | 356.39 | 499500 pair checks | PASS |
+| Closest pair | closest_pair_07.txt | 1500 | d = 1.4082 between (5994.989,1052.614) and (5993.944,1053.558) | 18.37 | 790.01 | 1124250 pair checks | PASS |
+| Closest pair | closest_pair_08.txt | 2500 | d = 0.2976 between (7744.119,5052.917) and (7744.299,5053.154) | 33.03 | 2280.29 | 3123750 pair checks | PASS |
+| Closest pair | closest_pair_09.txt | 4000 | d = 0.6708 between (1703.046,7812.448) and (1703.223,7813.095) | 90.89 | 6463.54 | 7998000 pair checks | PASS |
+| Closest pair | closest_pair_10.txt | 6000 | d = 1.1880 between (3633.255,6238.612) and (3632.094,6238.864) | 147.74 | 14063.56 | 17997000 pair checks | PASS |
+| Integer multiplication | int_mult_01.txt | 101 | 202-digit product 44091068...975300 | 7.32 | 0.003 | 2608 digit mults (Karatsuba) vs 10201 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_02.txt | 128 | 256-digit product 37028853...306515 | 7.86 | 0.0032 | 3689 digit mults (Karatsuba) vs 16384 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_03.txt | 200 | 399-digit product 84446801...642290 | 14.39 | 0.0025 | 7550 digit mults (Karatsuba) vs 40000 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_04.txt | 256 | 512-digit product 71276415...310173 | 21.68 | 0.0032 | 10934 digit mults (Karatsuba) vs 65536 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_05.txt | 400 | 800-digit product 13530561...228480 | 42.72 | 0.0087 | 23123 digit mults (Karatsuba) vs 160000 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_06.txt | 512 | 1023-digit product 59925263...372212 | 66.41 | 0.0074 | 32782 digit mults (Karatsuba) vs 262144 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_07.txt | 800 | 1600-digit product 66908763...796750 | 157.9 | 0.0275 | 68560 digit mults (Karatsuba) vs 640000 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_08.txt | 1024 | 2048-digit product 24869459...929344 | 166.51 | 0.024 | 99380 digit mults (Karatsuba) vs 1048576 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_09.txt | 2048 | 4096-digit product 25198943...986251 | 675.48 | 0.1683 | 297140 digit mults (Karatsuba) vs 4194304 digit mults (grade school) | PASS |
+| Integer multiplication | int_mult_10.txt | 4096 | 8192-digit product 12309533...294907 | 1810.57 | 0.2019 | 892664 digit mults (Karatsuba) vs 16777216 digit mults (grade school) | PASS |
